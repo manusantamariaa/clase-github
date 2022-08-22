@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1{
+    font-family: sans-serif;
+    color: red;
+}
+
+.hola-mundo{
+    background-color: antiquewhite;
+    text-align: center;
+    max-width: 650px;
+    margin: 15px auto;
+}
+
+/* mobile last */
+@media (max-width: 650px){
+    .hola-mundo{
+        background-color: rgb(60, 34, 178);
+    }
+}
+
