@@ -16,6 +16,16 @@
     margin: 15px auto;
 }
 
+.flex-index{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-index img{
+    padding: 5px;
+}
+
 /* mobile last */
 @media (max-width: 650px){
     .hola-mundo{
